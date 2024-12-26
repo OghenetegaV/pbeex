@@ -3,7 +3,6 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from 'next/link';
-import GetInvolvedBtn from "./CTA-Button";
 
 // Custom class for navigation link styles
 const navLinkModify =
