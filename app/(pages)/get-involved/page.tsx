@@ -19,7 +19,7 @@ const GetInvolved: React.FC = () => {
         <div className='flex flex-col lg:flex-row justify-between items-center p-6 md:px-28 font-poppins'>
           <div className='max-w-[40rem] py-6 text-darkgray'>
             <h3 className='font-semibold text-3xl py-2'>Join Us!</h3>
-            <p>The Prof. O. A. Bamiro Engineering Expo (PBEEX) is your chance to showcase groundbreaking engineering innovations and address real-world problems with bold, solution-driven projects. This one-of-a-kind platform brings together students, innovators, and top engineering organizations to turn ideas into reality, offering resources, mentorship, and financial support. Join us to pioneer cutting-edge solutions, gain national recognition, and shape the future of engineering in Nigeria!</p>
+            <p>The Prof. O. A. Bamiro Engineering Expo &#40;PBEEX&#41; is your chance to showcase groundbreaking engineering innovations and address real-world problems with bold, solution-driven projects. This one-of-a-kind platform brings together students, innovators, and top engineering organizations to turn ideas into reality, offering resources, mentorship, and financial support. Join us to pioneer cutting-edge solutions, gain national recognition, and shape the future of engineering in Nigeria!</p>
           </div>
           <div className="flex flex-col gap-4 items-center max-w-[40rem]">
             <CTA_Button
@@ -51,7 +51,7 @@ const GetInvolved: React.FC = () => {
               />
             </div>
             <h4 className='font-semibold text-2xl py-2'>Research Your Way to Solutions</h4>
-            <p>By researching, you gain deeper insights, discover new perspectives, and develop innovative ideas. Whether you're improving a product or solving a real-world issue, research is your tool for turning ideas into impactful solutions.</p>
+            <p>By researching, you gain deeper insights, discover new perspectives, and develop innovative ideas. Whether you&#39;re improving a product or solving a real-world issue, research is your tool for turning ideas into impactful solutions.</p>
           </div>
 
           <div className='text-darkgray flex flex-col w-full max-w-[454px] h-[600px]'>
@@ -66,7 +66,7 @@ const GetInvolved: React.FC = () => {
               />
             </div>
             <h4 className='font-semibold text-2xl py-2'>Find Solution to Problems</h4>
-            <p>Problems are opportunities waiting for solutions. By researching, you equip yourself with the knowledge and tools needed to understand challenges and solve them effectively. Don’t stop at identifying problems—dive deep, analyze, and create solutions that make a real difference.</p>
+            <p>Problems are opportunities waiting for solutions. By researching, you equip yourself with the knowledge and tools needed to understand challenges and solve them effectively. Don&#39;t stop at identifying problems—dive deep, analyze, and create solutions that make a real difference.</p>
           </div>
 
           <div className='text-darkgray flex flex-col w-full max-w-[454px] h-[600px]'>
@@ -81,7 +81,7 @@ const GetInvolved: React.FC = () => {
               />
             </div>
             <h4 className='font-semibold text-2xl py-2'>Build Problem-Solving Products</h4>
-            <p>Through research and innovation, you can design solutions that address challenges and meet needs effectively. Focus on understanding the problem, exploring creative ideas, and building products that make a difference in people’s lives. Start creating impactful solutions today.</p>
+            <p>Through research and innovation, you can design solutions that address challenges and meet needs effectively. Focus on understanding the problem, exploring creative ideas, and building products that make a difference in people &#39; s lives. Start creating impactful solutions today.</p>
           </div>
         </div>
 
