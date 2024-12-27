@@ -25,10 +25,14 @@ const GetInvolved: React.FC = () => {
             <CTA_Button
               text="Find Student Association"
               className="text-center w-full" 
+              href='https://bit.ly/pbeex'
+              target='_blank'
             />
             <CTA_Button
               text="Become a Sponsor"
               className="text-center px-11 w-full" 
+              href="mailto:profbamiroengineeringexpo@gmail.com?subject=Become a Sponsor&body=I am interested in sponsoring PBEEX. Please provide more details."
+              target='_blank'
             />
           </div>
         </div>
@@ -81,7 +85,7 @@ const GetInvolved: React.FC = () => {
               />
             </div>
             <h4 className='font-semibold text-2xl py-2'>Build Problem-Solving Products</h4>
-            <p>Through research and innovation, you can design solutions that address challenges and meet needs effectively. Focus on understanding the problem, exploring creative ideas, and building products that make a difference in people &#39; s lives. Start creating impactful solutions today.</p>
+            <p>Through research and innovation, you can design solutions that address challenges and meet needs effectively. Focus on understanding the problem, exploring creative ideas, and building products that make a difference in people&#39;s lives. Start creating impactful solutions today.</p>
           </div>
         </div>
 

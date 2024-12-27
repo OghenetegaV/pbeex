@@ -33,6 +33,7 @@ const WhatIsPbeex: React.FC = () => {
           {/* Call to Action Button */}
           <CTA_Button
             text="Get Invovled"
+            href="/get-involved"
           />
         </div>
 

@@ -7,7 +7,7 @@ const Hero = () => {
         {/* Background Image */}
         <div className="absolute inset-0 -z-10 w-full h-full">
         <Image
-            src="/Frame-3.svg"
+            src="/hero-img.svg"
             alt="Engineer in construction gear"
             className="w-full h-full object-cover"
             width={1000}
@@ -27,7 +27,7 @@ const Hero = () => {
         {/* Content Section */}
         <div className="relative w-full md:w-3/5 lg:w-2/5 flex flex-col items-center justify-center text-white z-10 lg:pb-16 lg:translate-x-96">
             {/* Bulb Icon */}
-            <div className="absolute -top-10 -left-28 lg:-left-40 hover:scale-100 animate-pulse">
+            <div className="absolute -top-10 -left-32 lg:-left-40 hover:scale-100 animate-pulse">
                 <Image
                     src="/bulb-icon.svg"
                     alt="Bulb Icon"
@@ -44,9 +44,9 @@ const Hero = () => {
 
             {/* Buttons */}
             <div className="flex flex-wrap items-center gap-4 justify-center lg:justify-start">
-                <button className="px-6 py-2 text-white border rounded-full shadow-lg hover:scale-105 transition-transform duration-300">
+                <a href="/about" className="px-6 py-2 text-white border rounded-full shadow-lg hover:scale-105 transition-transform duration-300">
                     Learn More
-                </button>
+                </a>
                 {/* Call to Action Button */}
                 <div className="z-10 flex">
                     <a

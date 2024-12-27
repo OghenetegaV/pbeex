@@ -58,6 +58,7 @@ const SaveYourSpot: React.FC = () => {
         {/* Call to Action Button */}
         <CTA_Button
           text="Get Involved"
+          href="/get-involved"
         />
       </div>
     </section>

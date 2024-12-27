@@ -20,26 +20,71 @@ const Footer: React.FC = () => {
             />
           </div>
           <div className="flex space-x-4">
-            {["facebook-icon", "twitter-icon", "instagram-icon", "linkedin-icon", "whatsapp-icon"].map((icon, index) => (
-              <a
-                key={index}
-                href="#"
-                className="hover:scale-110 transition-transform"
-              >
-                <Image 
-                  src={`/${icon}.png`} 
-                  alt={`${icon} icon`} 
-                  className="transition-transform duration-300" 
-                  width={28} 
-                  height={28} 
-                />
-              </a>
-            ))}
+            <a
+              href="https://www.instagram.com/pbeex_official"
+              className="hover:scale-110 transition-transform"
+            >
+              <Image 
+                src="/facebook-icon.png"
+                alt="facebook"
+                className="transition-transform duration-300" 
+                width={28} 
+                height={28} 
+              />
+            </a>
+            <a
+              href="https://www.twitter.com/pbeex_official"
+              className="hover:scale-110 transition-transform"
+            >
+              <Image 
+                src="/twitter-icon.png"
+                alt="twitter"
+                className="transition-transform duration-300" 
+                width={28} 
+                height={28} 
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/pbeex_official"
+              className="hover:scale-110 transition-transform"
+            >
+              <Image 
+                src="/instagram-icon.png"
+                alt="instagram"
+                className="transition-transform duration-300" 
+                width={28} 
+                height={28} 
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/pbeex/"
+              className="hover:scale-110 transition-transform"
+            >
+              <Image 
+                src="/linkedin-icon.png"
+                alt="linkedin"
+                className="transition-transform duration-300" 
+                width={28} 
+                height={28} 
+              />
+            </a>
+            <a
+              href="https://bit.ly/pbeex"
+              className="hover:scale-110 transition-transform"
+            >
+              <Image 
+                src="/whatsapp-icon.png"
+                alt="whatsapp"
+                className="transition-transform duration-300" 
+                width={28} 
+                height={28} 
+              />
+            </a>
           </div>
           <p className="text-sm">
             Stay updated about the Expo and tech 
           </p>
-          <form className="flex flex-col gap-4">
+          <form action="mailto:profbamiroengineeringexpo@gmail.com" method="post" className="flex flex-col gap-4">
             <input
               type="text"
               placeholder="Full Name"
@@ -50,6 +95,7 @@ const Footer: React.FC = () => {
                 type="email"
                 placeholder="Email"
                 className="w-full px-4 py-2 rounded-full border bg-darkblue text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-brandred"
+                required
               />
               <button
                 type="submit"
