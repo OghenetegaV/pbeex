@@ -17,7 +17,6 @@ export default {
         brandred: "#FF5A5A",
         darkgray: "#323232",
         lightgray: "#D4D3D3",
-        // gray: "#323232"
       },
       fontFamily: {
         rebas: ["Bebas Neue", "sans-serif"], 
