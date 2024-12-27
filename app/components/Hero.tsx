@@ -71,7 +71,7 @@ const Hero = () => {
             {/* Vector Icon */}
             <div className="hidden md:flex absolute -bottom-10 right-1 lg:bottom-0">
                 <Image
-                    src="/vector-icon.svg" 
+                    src="/Vector-icon.svg" 
                     alt="Vector Icon"
                     className="w-12 h-12 md:w-16 md:h-16"
                     width={64} 
