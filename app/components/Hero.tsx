@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="relative flex items-center justify-center h-screen m-0 px-6 md:px-12 lg:px-24">
+    <section className="relative flex items-center justify-center min-h-[80vh] m-0 px-6 md:px-12 lg:px-24">
         {/* Background Image */}
         <div className="absolute inset-0 -z-10 w-full h-full">
         <Image
